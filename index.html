@@ -4,22 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/home.css">
-    <title>RAPIDPARK</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>rapidpark</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <div class="logo_nom">
-            <img class="logo" src="assets/img/logo.png" alt="logo">
-            <p class="nom">RAPIDPARK</p>
-        </div>
-        <div class="download">
-            <img src="assets/img/appstore.png" width="25%" class="appstore">
-            <img src="assets/img/playstore.png" width="32%" height="32%" class="playstore">
-        </div>
-        <div class="fleche">
-            <img class="fleche_bas" src="assets/img/cercle-fleche.svg" alt="fleche_bas">
-        </div>
+    <header id="nav">
+        <nav>
+            <h2>rapidpark</h2>
+            <ul>
+                <a href="#Accueil">Accueil</a>
+                <a href="#A-propos">A propos</a>
+                <a href="#Location">Où nous trouvez ?</a>
+            </ul>
+        </nav>
     </header>
+    <main>
+        <section id="Accueil" class="contain-home">
+            <div class="box-logo">
+                <h1><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png" alt=""><span>rapidpark</span></h1>
+            </div>
+            <div class="download">
+                <a href="#">
+                    <img src="assets/img/apple_store.png" alt="logo installation apple store">
+                </a>
+                <a href="#">
+                    <img src="assets/img/google_store.png" alt="Logo installation play store">
+                </a>
+            </div>
+            <a href="#presentation">
+                <div id="toggle" class="toggle"></div>
+            </a>
+        </section>
+        <section class="contain-page" id="A-propos">
+            <h1>Qui sommes nous ?</h1>
+            <div class="box-home">
+                <img class="left" src="assets/img/undraw_develop_app_re_bi4i.svg" alt="">
+                <p class="box left p-left">Nous sommes une jeune entreprise de développeur sur Bordeaux et notre objectif <span>vous facilitez la vie</span></p>
+            </div>
+            <div class="box-home">
+                <p class="box auto right p-right">Avec <span>rapidpark</span> retrouvez tous les parkings près de chez vous en un clic !</p>
+                <img class="right" src="https://kstatic.googleusercontent.com/files/7abf68ec86d34faa5ef06f586e386a70667a10320ecc15217b2046861e9d7ee9e140a002ed2b914333a03d8978db843a773aa955babea1ccd47c05220791b7a9" alt="">
+            </div>
+        </section>
+        <section id="Location" class="contain-page">
+            <h1>Où sommes nous implanté ?</h1>
+            <div class="box p-right">
+                <p class="p-right">Vous pouvez utilisez seulement l'application sur l'agglomération de Bordeaux.
+                    <br><br>
+                    <span class="display-left">
+                    Mais ne vous inquiétez pas l'application sera disponible pour d'autres villes très prochainement.
+                    </span>
+                </p>
+            </div>
+            <img src="assets/img/undraw_my_location_re_r52x.svg" alt="">
+        </section>
+        <section class="contain-path">
+            <div class="box-path">
+                <img src="https://kstatic.googleusercontent.com/files/7abf68ec86d34faa5ef06f586e386a70667a10320ecc15217b2046861e9d7ee9e140a002ed2b914333a03d8978db843a773aa955babea1ccd47c05220791b7a9" alt="">
+                <div class="text-path right">
+                    <p>Obtenez les parkings proche de votre position et leurs places libres disponibles.</p>
+                </div>
+            </div>
+            <div class="box-path">
+                <img src="https://kstatic.googleusercontent.com/files/7abf68ec86d34faa5ef06f586e386a70667a10320ecc15217b2046861e9d7ee9e140a002ed2b914333a03d8978db843a773aa955babea1ccd47c05220791b7a9" alt="">
+                <div class="text-path left">
+                    <p>Recherchez les parkings aux alentours de l'adresse que vous souhaitez.</p>
+                </div>
+            </div>
+            <div class="box-path">
+                <img src="https://kstatic.googleusercontent.com/files/7abf68ec86d34faa5ef06f586e386a70667a10320ecc15217b2046861e9d7ee9e140a002ed2b914333a03d8978db843a773aa955babea1ccd47c05220791b7a9" alt="">
+                <div class="text-path right">
+                    <p>Mettez en favoris les parkings que vous souhaitez pour y accédez plus rapidement.</p>
+                </div>
+            </div>
+
+        </section>
+        <footer>
+            <h2>Vous pouvez trouver notre application sur le playstore et l'appstore</h2>
+            <ul>
+                <li><a href="#Accueil">Accueil</a></li>
+                <li><a href="#A-propos">A propos</a></li>
+                <li><a href="#Location">Où nous trouver ?</a></li>
+            </ul>
+            <div class="download">
+                <a href="#">
+                    <img src="assets/img/apple_store.png" alt="logo installation apple store">
+                </a>
+                <a href="#">
+                    <img src="assets/img/google_store.png" alt="Logo installation play store">
+                </a>
+            </div>
+            <p>Copyright © 2022 rapid-park.fr - Tous droits réservés - Développé par <a href="#">mb-web19</a></p>
+        </footer>
+    </main>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>

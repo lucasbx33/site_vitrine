@@ -246,7 +246,7 @@ header.active {
   max-width: 30%;
 }
 .contain-page .box {
-  width: 300px;
+  width: 400px;
   height: 400px;
   display: flex;
   align-items: center;
@@ -328,16 +328,16 @@ header.active {
 
 footer {
   width: 100%;
-  height: 10vh;
+  height: 15vh;
   background-color: #202020;
 }
 footer div {
-  width: 100%;
-  height: 30%;
+  width: 50%;
+  height: 10vh;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 15px;
 }
 footer div a {
   color: white;
@@ -346,6 +346,7 @@ footer div a {
 footer p {
   text-align: center;
   color: white;
+  margin-bottom: 10px;
 }
 footer p a {
   color: white;
@@ -356,7 +357,7 @@ footer p a {
     display: none !important;
   }
   .contain-home .box-logo {
-    width: 90%;
+    width: 100%;
   }
   .contain-home .box-logo h1 {
     font-size: 3rem;
